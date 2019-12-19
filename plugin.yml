@@ -1,0 +1,6 @@
+main: fr.blacknite.beekeeper.Main
+name: BeeKeeper
+version: 1.0
+author: BlackNite
+description: Be protected from bee !
+api-version: 1.13
