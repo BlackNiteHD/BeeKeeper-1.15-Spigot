@@ -19,9 +19,8 @@ public class EventListener implements Listener {
 				ItemStack chestplate = player.getInventory().getChestplate();
 				ItemStack leggings = player.getInventory().getLeggings();
 				ItemStack boots = player.getInventory().getBoots();
-				if(helmet != null && helmet.getType() == Material.CHAINMAIL_HELMET && chestplate.getType() == Material.CHAINMAIL_CHESTPLATE && leggings.getType() == Material.CHAINMAIL_LEGGINGS && boots.getType() == Material.CHAINMAIL_BOOTS) {
+				if(helmet != null && helmet.getType() == Material.CHAINMAIL_HELMET && chestplate.getType() == Material.CHAINMAIL_CHESTPLATE && leggings.getType() == Material.CHAINMAIL_LEGGINGS && boots.getType() == Material.CHAINMAIL_BOOTS)
 					event.setCancelled(true);
-				}
 			}
 		}		
 	}
