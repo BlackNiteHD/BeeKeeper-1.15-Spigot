@@ -12,9 +12,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin {
 	
 	@Override
-	public void onEnable() {
+	public void onEnable()
+	{
 		getServer().getPluginManager().registerEvents(new EventListener(), this);
-		
 		craft();
 	}
 	
@@ -101,7 +101,5 @@ public class Main extends JavaPlugin {
 			Bukkit.addRecipe(bootsrecipe);
 	}
 	
-	@Override
-	public void onDisable() {	
-	}
+	@Override public void onDisable() {}
 }
